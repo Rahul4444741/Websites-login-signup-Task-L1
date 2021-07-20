@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 50vw;
+  height: 60vh;
+  padding: 16px;
+  border: 1px solid black;
+}
+.home-p {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.mid {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.home-btns {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 24px;
+}
